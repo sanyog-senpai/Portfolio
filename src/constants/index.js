@@ -126,7 +126,7 @@ const experiences = [
         company_name: "WEN Solutions",
         icon: wenSolutions,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Mar 2021",
+        date: "Jan 2021 - August 2021",
         points: [
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products."
         ],
