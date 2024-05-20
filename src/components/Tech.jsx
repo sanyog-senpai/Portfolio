@@ -16,10 +16,9 @@ const Tech = () => {
       <div className="flex flex-row flex-wrap justify-center gap-10">
         {
           technologies.map((technology, index)=>(
-            <motion.div variants={fadeIn("up", "spring", index * 0.2, 0.30)} className="w-28 h-28 rounded-full flex justify-center items-center bg-white-100 text-black
-            " key={technology.name}>
+            <motion.div variants={fadeIn("up", "spring", index * 0.2, 0.30)} className="flex items-center justify-center text-black rounded-full w-28 h-28 bg-white-100 " key={technology.name}>
               
-              <img className='w-20 h-20 object-contain' src={technology.icon} alt="" />
+              <img className='object-contain w-20 h-20' src={technology.icon} alt="" />
             </motion.div>
           ))
         }

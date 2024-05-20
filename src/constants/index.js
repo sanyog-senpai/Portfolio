@@ -20,10 +20,9 @@ import {
     web,
     webHostNepal,
     wenSolutions,
-    xypo
+    xypo,
+    wordpress
 } from "../assets";
-
-
 
 export const navLinks = [
     {
@@ -49,14 +48,6 @@ const services = [
         title: "UI/UX Designer",
         icon: pc,
     },
-    // {
-    //     title: "Backend Developer",
-    //     icon: backend,
-    // },
-    // {
-    //     title: "Content Creator",
-    //     icon: creator,
-    // },
 ];
 
 const technologies = [
@@ -75,6 +66,10 @@ const technologies = [
     {
         name: "TypeScript",
         icon: typescript,
+    },
+    {
+        name: "wordpress",
+        icon: wordpress,
     },
     {
         name: "React JS",
@@ -108,6 +103,7 @@ const technologies = [
         name: "photoShop",
         icon: photoshop,
     },
+    
 ];
 
 const experiences = [
@@ -165,7 +161,6 @@ const testimonials = [
         image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
 ];
-
 
 const projects = [
     {

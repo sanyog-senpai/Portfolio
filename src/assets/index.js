@@ -19,6 +19,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import photoshop from "./tech/photoshop.png";
+import wordpress from "./tech/wordpress.png";
 
 import webHostNepal from "./company/webHostNepal.png"
 import wenSolutions from "./company/wenSolutions.png"
@@ -56,6 +57,7 @@ export {
   webHostNepal,
   wenSolutions,
   photoshop,
+  wordpress,
   beats,
   danfe,
   facebook,
