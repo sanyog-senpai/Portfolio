@@ -20,9 +20,12 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import photoshop from "./tech/photoshop.png";
 import wordpress from "./tech/wordpress.png";
+import postgresql from "./tech/Postgresql.png";
+import prisma from "./tech/Prisma.png";
 
 import webHostNepal from "./company/webHostNepal.png"
 import wenSolutions from "./company/wenSolutions.png"
+import facet from "./company/Facet.png"
 
 import beats from "./projects/Beats.png";
 import danfe from "./projects/Danfe.png";
@@ -46,6 +49,8 @@ export {
   git,
   html,
   javascript,
+  postgresql,
+  prisma,
   mongodb,
   nodejs,
   reactjs,
@@ -53,7 +58,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  
+  facet,
   webHostNepal,
   wenSolutions,
   photoshop,
