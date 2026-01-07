@@ -32,7 +32,7 @@ const Hero = () => {
           <div>
             <h1 className={`${styles.heroHeadText}`}>Hi, I am <span className='text-[#915eff]'>Sanyog</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>Sculpting Digital Experiences <br className='hidden sm:block' /><br className='block sm:hidden' />| Frontend Developer | UI/UX Designer</p>
-            <a href={cv} onClick={handleDownload} download="curriculum-vitae.pdf"   className="inline-flex  gap-2 items-center bg-[#915eff] mt-12 ps-4 pe-5 py-3 rounded"><BiSolidDownload />Download CV</a>
+            <a href={cv} onClick={handleDownload} download="Sanyog Rajbhandari CV.pdf"   className="inline-flex  gap-2 items-center bg-[#915eff] mt-12 ps-4 pe-5 py-3 rounded"><BiSolidDownload />Download CV</a>
           </div>
           <div className="max-lg:w-full">
             <img className="w-full max-w-xs mx-auto max-lg:w-48 max-sm:mt-10 sm:mt-12" src={MainImg} alt={MainImg} />
