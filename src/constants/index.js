@@ -2,7 +2,7 @@ import {
 	beats,
 	css,
 	danfe,
-	facebook,
+	facetTechnology,
 	figma,
 	git,
 	html,
@@ -191,9 +191,26 @@ const testimonials = [
 
 const projects = [
 	{
+		name: "Facet Technology",
+		description:
+			"This project is a responsive website which is focused on performance, clean design, and smooth user experience.",
+		tags: [
+			{
+				name: "nextjs",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "tailwindcss",
+				color: "blue-text-gradient",
+			},
+		],
+		image: facetTechnology,
+		source_code_link: "https://facet.technology/",
+	},
+	{
 		name: "Movie Zone",
 		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"This project is a movie details site which displays films, ratings, and information with a clean responsive design.",
 		tags: [
 			{
 				name: "react",
@@ -219,7 +236,7 @@ const projects = [
 	{
 		name: "Beats",
 		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"This project is a Product site which displays product information for a company with a clean responsive design.",
 		tags: [
 			{
 				name: "html",
@@ -244,7 +261,7 @@ const projects = [
 	{
 		name: "Movies",
 		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"This project is a movie listing site which displays films, ratings, and information with a clean responsive design.",
 		tags: [
 			{
 				name: "html",
@@ -269,7 +286,7 @@ const projects = [
 	{
 		name: "Danfe",
 		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"This project is a college website which displays information about the institution with a clean responsive design.",
 		tags: [
 			{
 				name: "html",
@@ -290,7 +307,7 @@ const projects = [
 	{
 		name: "Xypo",
 		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+			"This project is a simple website which displays information with a clean responsive design.",
 		tags: [
 			{
 				name: "html",
@@ -307,28 +324,6 @@ const projects = [
 		],
 		image: xypo,
 		source_code_link: "https://sanyog-senpai.github.io/Xypo/",
-	},
-	// link not ready
-	{
-		name: "Facebook",
-		description:
-			"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-		tags: [
-			{
-				name: "html",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "css",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "swiperjs",
-				color: "blue-text-gradient",
-			},
-		],
-		image: facebook,
-		source_code_link: "#",
 	},
 ];
 

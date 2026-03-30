@@ -2,6 +2,7 @@ import logo from "./logo.png";
 import web from "./web.png";
 import pc from "./pc.png";
 import github from "./github.png";
+import url from "./url.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -29,18 +30,19 @@ import facet from "./company/Facet.png"
 
 import beats from "./projects/Beats.png";
 import danfe from "./projects/Danfe.png";
-import facebook from "./projects/Facebook.png";
+import facetTechnology from "./projects/Facet-Technology.png";
 import movieZone from "./projects/Movie Zone.png";
 import movies from "./projects/Movies.png";
 import xypo from "./projects/Xypo.png";
 
-import cv from "./cv/SanyogCV.pdf";
+import cv from "./cv/Sanyog Rajbhandari CV.pdf";
 export {
   pc,
   cv,
   logo,
   web,
   github,
+  url,
   menu,
   close,
   css,
@@ -65,7 +67,7 @@ export {
   wordpress,
   beats,
   danfe,
-  facebook,
+  facetTechnology,
   movieZone,
   movies,
   xypo,

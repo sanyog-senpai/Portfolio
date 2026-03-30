@@ -3,7 +3,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { github } from '../assets'
+import { url } from '../assets'
 import { SectionWrapper } from '../hoc'
 import { projects } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
@@ -27,7 +27,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
 
             <div onClick={() => window.open(source_code_link, "_blank")}
               className='flex items-center justify-center w-10 h-10 rounded-full cursor-pointer black-gradient'>
-              <img src={github} alt={github} className='object-contain w-1/2 h-1/2' />
+              <img src={url} alt={url} className='object-contain w-[40%] h-[40%]' />
             </div>
           </div>
         </div>
