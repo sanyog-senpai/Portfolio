@@ -91,10 +91,6 @@ const technologies = [
 		icon: tailwind,
 	},
 	{
-		name: "Prisma",
-		icon: prisma,
-	},
-	{
 		name: "Postgre SQL",
 		icon: postgresql,
 	},
@@ -258,73 +254,73 @@ const projects = [
 		image: beats,
 		source_code_link: "https://sanyog-senpai.github.io/beats/",
 	},
-	{
-		name: "Movies",
-		description:
-			"This project is a movie listing site which displays films, ratings, and information with a clean responsive design.",
-		tags: [
-			{
-				name: "html",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "css",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "js",
-				color: "yellow-text-gradient",
-			},
-			{
-				name: "swiperjs",
-				color: "blue-text-gradient",
-			},
-		],
-		image: movies,
-		source_code_link: "https://sanyog-senpai.github.io/Movies/",
-	},
-	{
-		name: "Danfe",
-		description:
-			"This project is a college website which displays information about the institution with a clean responsive design.",
-		tags: [
-			{
-				name: "html",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "css",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "js",
-				color: "yellow-text-gradient",
-			},
-		],
-		image: danfe,
-		source_code_link: "https://sanyog-senpai.github.io/Danfe-College/",
-	},
-	{
-		name: "Xypo",
-		description:
-			"This project is a simple website which displays information with a clean responsive design.",
-		tags: [
-			{
-				name: "html",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "css",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "js",
-				color: "yellow-text-gradient",
-			},
-		],
-		image: xypo,
-		source_code_link: "https://sanyog-senpai.github.io/Xypo/",
-	},
+	// {
+	// 	name: "Movies",
+	// 	description:
+	// 		"This project is a movie listing site which displays films, ratings, and information with a clean responsive design.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "js",
+	// 			color: "yellow-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "swiperjs",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: movies,
+	// 	source_code_link: "https://sanyog-senpai.github.io/Movies/",
+	// },
+	// {
+	// 	name: "Danfe",
+	// 	description:
+	// 		"This project is a college website which displays information about the institution with a clean responsive design.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "js",
+	// 			color: "yellow-text-gradient",
+	// 		},
+	// 	],
+	// 	image: danfe,
+	// 	source_code_link: "https://sanyog-senpai.github.io/Danfe-College/",
+	// },
+	// {
+	// 	name: "Xypo",
+	// 	description:
+	// 		"This project is a simple website which displays information with a clean responsive design.",
+	// 	tags: [
+	// 		{
+	// 			name: "html",
+	// 			color: "orange-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "js",
+	// 			color: "yellow-text-gradient",
+	// 		},
+	// 	],
+	// 	image: xypo,
+	// 	source_code_link: "https://sanyog-senpai.github.io/Xypo/",
+	// },
 ];
 
 export { experiences, projects, services, technologies, testimonials };
